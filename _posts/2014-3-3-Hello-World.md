@@ -1,10 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: Why is Computer Vision Important in FRIST Robotics?
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+FIRST competitions often allow the opprotunity for state of the art programming and high quality robots. 
+Teams are able to build robots that seem to play the game flawlessly, promote their brand, and seem to just be overall exciting robots. 
+However, one area in FIRST that is often overlooked is the programming aspect. (WIP Test the layout)
