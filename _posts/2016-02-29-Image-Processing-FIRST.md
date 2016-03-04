@@ -11,5 +11,5 @@ The advantages of computer vision seem fairly obvious, and often times the imple
 
 Vision code, however, does not need to be difficult, our team has struggled with this perception for a few years, fears of slowed robot computation cycles, fears of latancy over the network, and issues with robot functionality caused our team to decide to not use a functioning vision system in previous years.
 
-This year our vision system is written in Java, using [OpenCV 3.0.0]({{http://opencv.org/downloads.html}}), an [Axis M1011 camera]({{http://www.axis.com/us/en/products/axis-m1011}}), and two green LED rings. The [system]({{https://github.com/jlyon1/StrongholdVision}}) looks at only the green channel of the image, and minimal processing has to be done in order to track the targets, giving us information about the angle to the target, as well as the distance away. 
+This year our vision system is written in Java, using [OpenCV 3.0.0](http://opencv.org/downloads.html), an [Axis M1011 camera](http://www.axis.com/us/en/products/axis-m1011), and two green LED rings. The [system](https://github.com/jlyon1/StrongholdVision) looks at only the green channel of the image, and minimal processing has to be done in order to track the targets, giving us information about the angle to the target, as well as the distance away. 
 
