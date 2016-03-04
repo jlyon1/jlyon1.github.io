@@ -15,4 +15,4 @@ This year our vision system is written in Java, using [OpenCV 3.0.0](http://open
 
 An example of some shots taken by our robot using this system can be seen here: (www.youtube.com)
 
-In order to help remove the barrier to a vision system, I will be posting a full writeup and tutorial of this vision system and posting it here in the coming weeks. 
+In order to help decrease the barrier to a vision system for newer teams, and more experienced teams, I will be posting a full writeup and tutorial of this vision system and posting it here in the coming weeks. 
