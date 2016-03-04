@@ -15,6 +15,6 @@ This year our vision system is written in Java, using [OpenCV 3.0.0](http://open
 
 An example of some shots taken by our robot using this system can be seen here: (www.youtube.com)
 
-In order to help decrease the barrier to a vision system for newer teams, and more experienced teams, I will be posting a full writeup and tutorial of this vision system and posting it here in the coming weeks. 
+In order to help decrease the barrier to a vision system for newer teams, and more experienced teams, I will be posting a full writeup and tutorial of this vision system and posting it here in the coming weeks. Team 3044's Vision code this year is extemley simple, with the goal of allowing the robot to treat the output from vision as a sensor for input to a PID loop or other control method. 
 
 Comments section coming soon, to contact me in the meantime, use the links at the bottom of the page.
