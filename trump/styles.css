@@ -52,6 +52,27 @@ margin-bottom: 10px;
 
 }
 
+li:hover{
+position: relative;
+width: 490px;
+/*height: 120px;*/
+padding: 10px;
+background: #1abc9c;
+
+text-align:center;
+font-family: 'lato', sans-serif;
+font-size: 16px;
+-webkit-border-radius: 19px;
+-moz-border-radius: 19px;
+border-radius: 19px;
+list-style-type:none;
+margin-bottom:20px;
+
+top: 50%;
+left: 50%;
+margin-left: -290px;	
+}
+
 li:after 
 {
 list-style-type:none
