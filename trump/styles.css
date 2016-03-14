@@ -26,6 +26,10 @@ margin-left: -290px;
 
 }
 
+a{
+	background: #34495e;	
+}
+
 
 
 .text{
@@ -93,3 +97,4 @@ left: 396px;
 
 body{
 	background: #34495e;
+}
