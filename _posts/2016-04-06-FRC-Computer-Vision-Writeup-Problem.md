@@ -19,6 +19,9 @@ Our vision software was written in Java, using the Opencv libary, and ran on our
 6. Use the smart dashboard libary to communicate the most probable target to the robot.
 
 ## Configure OpenCV 3.0.0
+There are many tutorials out there on how to confiugre opencv 3.0.0 for eclipse, and it is similar for all versions of eclipse or other IDEs, however, for opencv 3.0.0, you must copy the file \{%opencv install location%\}\\build\x64\vc12\bin\opencv_ffmpeg300_64.dll to C:\windows\system32\
+
+Note: if you have a 32 bit system, copy the file from x86\vc12\bin\
 
 ## Aquire Images from Axis Camera
 Our team used an [Axis M1011 camera](http://www.axis.com/us/en/products/axis-m1011) with two LED rings around the lens for image aquisition. The camera was directly plugged into the radio using the ethernet port on the camera. This setup gave us some illumination on our targets, however, there was still a significant amount of noice and extra light in the image. 
