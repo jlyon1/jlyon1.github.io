@@ -18,8 +18,10 @@ Our vision software was written in Java, using the Opencv libary, and ran on our
 5. Use other information to determine what "Blobs" were likley targets
 6. Use the smart dashboard libary to communicate the most probable target to the robot.
 
-# Aquire Images from Axis Camera
-Our system used an [Axis M1011 camera](http://www.axis.com/us/en/products/axis-m1011) with modified camera settings, which we plugged directly into our radio for image acquisition, and two green LED rings. The green LED rings illuminated the reflective tape around the target. The result of this setup were images, with a 320px by 240px resolution that had the targets illuminated in the image. 
+## Configure OpenCV 3.0.0
+
+## Aquire Images from Axis Camera
+Our team used an [Axis M1011 camera](http://www.axis.com/us/en/products/axis-m1011) with two LED rings around the lens for image aquisition. The camera was directly plugged into the radio using the ethernet port on the camera. This setup gave us some illumination on our targets, however, there was still a significant amount of noice and extra light in the image. 
 
 
 
