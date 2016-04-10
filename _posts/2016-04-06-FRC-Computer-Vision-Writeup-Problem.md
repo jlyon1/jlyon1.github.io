@@ -6,9 +6,7 @@ title: Team 3044 Stronghold Vision Part 1 The Problem
 In our analysis of the game FIRST Stronghold, our team decided that vision tracking of the targets was not only a "Nice to have" Feature, but was a design requirement. Once this was decided, I took on the task of developing a reliable system which we could use in this year's game. We decided on three requirements for our system, which had to do the following in real time: 
 
 * Reliably Locate the position of the targets
-
 * interpret the information
-
 * send the results to the robot.
 
 Our vision software was written in Java, using the Opencv libary, and ran on our driverstation laptop. The software used the following basic algorithm: 
