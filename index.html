@@ -1,17 +1,108 @@
----
-layout: default
----
-<div class="posts">
-    {% for post in site.posts %}
-      <article class="post">
+<!DOCTYPE html>
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Jlyon1</title>
 
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+<style>
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+body,
+html {
+  font-family: Open Sans;
+  color: #4d4d4d;
+}
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      </article>
-  {% endfor %}
+h2 {
+  font-weight: 300;
+}
+
+h2 a {
+  font-weight: 800;
+  text-decoration: none;
+  color: #34495e;
+}
+
+h2 a:hover {
+  opacity: .7;
+}
+
+.container {
+  text-align: center;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+body {
+  background: #ecf0f1;
+}
+
+.card {
+  background: #ecf0f1;
+  border-radius: 2px;
+  display: block;
+  float: left;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  bottom: 80%
+ 
+  position: absolute;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.card-1:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.incard{
+	width:200px;
+}
+
+.speccol{
+	
+	height:200px;
+
+}
+
+</style>
+
+</head>
+<body>
+	<div class = "card card-1"><div class="container"><a href = "wip.html">Team 3044 Vision Softwarre...</a>
+</div><div class = "speccol"></div> </div>
+	<div class = "card card-1"><div class = "speccol"></div></div>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
+
+<div class="container">
+  <img class = "joe" src = "https://raw.githubusercontent.com/jlyon1/jlyon1.github.io/master/images/profile.png"></img>
+  <h2>Current Work By <a href="www.github.com/jlyon1" target="_blank">Joseph Lyon</a></h2>
 </div>
+
+</body>
+</html>
