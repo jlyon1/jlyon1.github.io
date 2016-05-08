@@ -10,6 +10,23 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
   <script>
+    $(document).ready(function() {
+      var mouseX, mouseY;
+      var ww = $(window).width();
+      var wh = $(window).height();
+      var traX, traY;
+      $(document).mousemove(function(e) {
+        mouseX = e.pageX;
+        mouseY = e.pageY;
+        traX = ((4 * mouseX) / 100) + 40;
+        traY = ((4 * mouseY) / 100) + 50;
+        console.log(traX);
+        $(".construction").css({
+          "background-position": traX + "%" + traY + "%"
+        });
+      });
+    });
+
     $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -32,7 +49,7 @@
   <div class="page1">
     <a id="pg1" class="smooth"></a>
     <div class="construction">
-      <h1>Welcome</h1>
+      Joseph Lyon
     </div>
     <div class="nav">
       <a class="prj" href="#pg2">Projects</a>
