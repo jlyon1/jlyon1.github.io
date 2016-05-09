@@ -114,11 +114,11 @@ a:hover{
   color: transparent;
   font-size:120px;
  
-  color: #ecf0f1;
+  color: black;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent),
              url("https://raw.githubusercontent.com/jlyon1/jlyon1.github.io/master/images/starry.jpg") repeat;
-  background: url("https://raw.githubusercontent.com/jlyon1/jlyon1.github.io/master/images/starry.jpg") repeat;
+  
   -webkit-background-clip: text;
 
   background-position: 60% 60%;
