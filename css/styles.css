@@ -52,7 +52,7 @@ h2 a:hover {
     height: 100%;
     z-index: 0;
     width:100%;
-    background: linear-gradient(to bottom,#ecf0f1, #bdc3c7);
+    background: linear-gradient(to bottom,#ecf0f1, #ecf0f1);
     padding:-5px;
     top: 0;
     left: 0;
