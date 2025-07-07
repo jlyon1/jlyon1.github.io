@@ -2,24 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Redirect from Hash</title>
+  <title>Open Link from Hash</title>
   <script>
     window.onload = function () {
       const hash = window.location.hash;
+      const container = document.getElementById('link-container');
+
       if (hash) {
         const url = decodeURIComponent(hash.substring(1));
         if (url.startsWith('http://') || url.startsWith('https://')) {
-          window.location.href = url;
+          const a = document.createElement('a');
+          a.href = url;
+          a.innerText = 'Click here to open the link';
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          container.appendChild(a);
         } else {
-          document.body.innerText = "Invalid URL. Must start with http:// or https://";
+          container.innerText = "Invalid URL. Must start with http:// or https://";
         }
       } else {
-        document.body.innerText = "No URL provided in hash.";
+        container.innerText = "No URL provided in hash.";
       }
     };
   </script>
 </head>
 <body>
-  Redirecting...
+  <div id="link-container">Loading...</div>
 </body>
 </html>
